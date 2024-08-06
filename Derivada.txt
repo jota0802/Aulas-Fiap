@@ -1,0 +1,25 @@
+-------------------------------------------------
+
+funcao 3x^2 - 10x - 4
+derivada 6x - 10
+
+resumindo formula:
+(numero elevado) x (mantem o numero e diminui o numero elevado em 1)
+
+outros exemplos
+
+f(x) = 20x^2 -10x-3
+d = 40x - 10 - 0
+
+g(x) = 4x^4 + 30x^2 -2
+d = 16x^3 + 60x - 0
+
+---------------------------------------------------
+
+é fonecido:
+
+d = d/dx 
+d = 2/x^2
+d = 2x^-2 ----> -6x^-3
+
+----------------------------------------------------

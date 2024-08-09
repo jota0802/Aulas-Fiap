@@ -5,7 +5,8 @@ lição de casa
 
 Edge computing 
 
-labiratorios pptx, portal do aluno ---> apostila ---> tinkercad
+labiratorios pptx, portal do aluno ---> apostila ---> NodeRED + tinkercad
+
 
 Web dev
 

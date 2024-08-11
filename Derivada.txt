@@ -6,6 +6,10 @@ derivada 6x - 10
 resumindo formula:
 (numero elevado) x (mantem o numero e diminui o numero elevado em 1)
 
+formula desenvolvida:
+
+(n)*(a)*(x^n-1) + (p)*(b)*(x^p-1) + ... = derivada
+
 outros exemplos
 
 f(x) = 20x^2 -10x-3

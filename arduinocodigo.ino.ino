@@ -43,5 +43,5 @@ void loop()
 }
 
 //ler o bagulho do professor de como instalar um servidor no teams, sobre o checkpoint 4, usar virtual box (por conta dp linux), ubutunu 22
-
+//sudo docker , vê os servidores...
 

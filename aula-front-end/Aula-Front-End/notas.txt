@@ -1,0 +1,15 @@
+--------------
+
+necessario para o react:
+baixar node.js v20.16
+adicionar extensao no vscode do nodejs
+pra ver se o node foi instalado: node -v
+pra ver de o npm: npm -v
+
+-----------------
+
+codigos
+-"code ." abre o folder no terminal
+-"npm create vite@latest ." baixa o vite no lugar
+-escolher react, e o modelo no qual voce vai trabalhar o react, que é o js (SWC é um turbo)
+-quando for iniciar usar: npm install + npm run dev

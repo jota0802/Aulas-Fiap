@@ -21,4 +21,3 @@ src/main.jsx Apagar somente linha 4 (do import)
 src/app.jsx apagar todas as linhas de cima da function app
 dentro da funcao apagar a linha que contem const[count,setcont]=usestate
 e apagar tudo que estier dentro do <></>
-.

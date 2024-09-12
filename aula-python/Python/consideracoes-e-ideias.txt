@@ -1,0 +1,54 @@
+1-problemas:
+Popularização da formula E + viabilidade ao publico:
+
+2-Soluções:
+- Praticidade 
+- Facilidade de acesso 
+- Facilidade de entendimento 
+- Propagação do tema de forma mais Intrigante ao publico 
+
+3-Plataformas Interativas:
+- Google Forms (realizar uma pesquisa sobre o interesse e popularidade da formula E no Brasil)
+- Sites Conversacional: que serão usados para deixar os interessados mais informados, alinhados e animados sobre o tema
+- Jogos interativos + fatos curiosos: Plataformas dentro do site que permitam que o usuário se divirta e o site tenha mais diversidade e relevância, como por exemplo farois que testam os tempos de reação dos usuários, quizes que tragam fatos curiosos sobre os carros, pilotos e empresas, e tentar criar uma forma de compartilhar isso ao publico (ex, postar no instagram, ou criar um #)
+
+4-Funcionalidade: 
+-Juntando os conceitos anteriores é possivel tornar a empresa mais visivel, e de certa forma trazendo mais informações atualizadas da Modalidade 
+- As Linguagens que serão utilizadas:
+  -JavaScript 
+  -CSS 
+  -HTML 
+  -Python
+  -C/C++
+- Utilizaremos as linguagens da seguinte forma:
+  - Sites e afins: JS / CSS / HTML 
+  - Bibliotecas : Python 
+  - Jogos interativos: C/C++
+
+
+
+
+Site: 
+- O site terá o intuito de trazer todas as informações que o usuário precisa num lugar só,
+assim tornando pratico e versátil para uma boa experiência do usuário.
+- Será exibido ao usuário corridas anteriores, circuitos, pilotos, carros, empresas, e curiosidades sobre a Formula E. (grande parte destes itens serão animados por CSS e interativos pelo JS)
+- O site será estilizado com base nas paletas de cores da mahinda (Será feito um Figma com tudo Organizado e Formatado).
+
+ideias de jogos:
+Farol com tempo de reação:
+- Será feito tanto no site, como tambem um protótipo em um Arduino 
+- testa a velocidade que o usuário demora até apertar o botão 
+- O tempo sera printado para o usuário.
+- O tempo será guardado na memoria do sistema, assim sendo possivel realizar um Rank, fazendo com que o usuário se interesse mais e tente passar mais tempo no jogo.
+- Junto disso, a cada tentativa nova, um carro da formula E passara no display indicando o inicio da contagem regressiva.
+
+
+
+Quiz: 
+- Tentaremos imitar uma especie de Kahoot, realizando ao usuário perguntas sobre os fatos da Forlmula E, com perguntas de multiplas alternativas e Verdadeiro ou Falso 
+- Ao decorrer do jogo aparecerá a quantidade de acertos do usuário alem das quantidades de perguntas ja respondidas / a quantidade de pergunta totais (ex: 3/5)
+- Ao final do Quiz tambem será mostrado ao usuário seu Rank que será gravado no sistema , e tambem usuário terá a opção de refazer as questões erradas anteriormente.
+
+Pesquisa de Afinidade com equipes:
+- Faremos perguntas baseadas no perfil do usuário, de forma que direcione uma equipe que mais combina com sua personalidade e gostos.
+- Assim talvez podemos atrair o usuario a passar mais tempo pesquisando sobre a equipe sobre pilotos, ou vendo as corridas, o que certamente trara um pouco mais de engajamento a Formula E.

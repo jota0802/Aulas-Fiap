@@ -1,0 +1,27 @@
+<<<<<<< HEAD:notas.txt
+aulas -->
+=======
+--------------
+
+necessario para o react:
+baixar node.js v20.16
+adicionar extensao no vscode do nodejs
+pra ver se o node foi instalado: node -v
+pra ver de o npm: npm -v
+
+-----------------
+
+codigos
+-"code ." abre o folder no terminal
+-"npm create vite@latest ." baixa o vite no lugar
+-escolher react, e o modelo no qual voce vai trabalhar o react, que é o js (SWC é um turbo)
+-quando for iniciar usar: npm install + npm run dev
+
+-public --> apagar
+-src/assets - apagar imagens
+- src - apagar app.css e index.css
+src/main.jsx Apagar somente linha 4 (do import)
+src/app.jsx apagar todas as linhas de cima da function app
+dentro da funcao apagar a linha que contem const[count,setcont]=usestate
+e apagar tudo que estier dentro do <></>
+>>>>>>> 2c209604b0e4dd3be17ae7fac1033057b7589384:aula-front-end/notas.txt

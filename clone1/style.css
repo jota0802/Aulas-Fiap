@@ -1,0 +1,92 @@
+/* Estilos básicos */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 200vh;
+    width: 100%;
+}
+.texto{
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 88vw;
+    height: clamp(60px,8vw,300px);
+    top: 0vh;
+    margin-top: clamp(20px,6vh,100px);
+    margin-left: 6vw;
+    padding-left: clamp(10px,2vw,40px)  ;
+    border-radius: 2vh;
+    background-color: #333;
+    list-style: none;   
+    transition: top 0.8s ease-in-out;    
+}
+
+.texto li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.texto ul{
+    margin-left: clamp(0px,4vw,100px);
+    margin-right: clamp(0px,4vw,100px);
+    padding-top: clamp(0px,2vh,80px);
+}
+.texto a{
+    text-decoration: none;
+    font-size: clamp(10px,1.2vw,40px);
+    color:antiquewhite;
+}
+
+/* Botão para abrir/fechar a sidebar */
+.toggle-button {
+    z-index: 2;
+    position: fixed;
+    top: clamp(70px,6vw,80px);
+    left: 10vw;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 1vw 1.2vw;
+    cursor: pointer;
+    border-radius: 2vh;
+    font-size: clamp(10px,1.4vw,40px);
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+@keyframes nav-animado-open {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 88vw;
+        display: block;
+    }
+    
+
+}
+@keyframes nav-animado-close {
+    0%{
+        width: 88vw;
+    }
+    100%{
+        width: 0vw;
+    }
+}
+.texto.open {
+    background-color: #333;
+    display: block;
+    animation: nav-animado-open 2s;
+}
+.texto.close {
+    animation: nav-animado-close 2s; 
+}

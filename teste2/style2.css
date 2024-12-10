@@ -1,0 +1,68 @@
+/* Estilos básicos */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 200vh;
+    width: 100%;
+}
+.texto{
+    z-index: 2;
+    display: flex;
+    display: none;
+    justify-content: center;
+    position: fixed;
+    width: 100w;
+    height: clamp(60px,8vw,300px);
+    background-color: #333;
+}
+/* Botão para abrir/fechar a sidebar */
+.toggle-button {
+    z-index: 2;
+    position: fixed;
+    top: clamp(70px,6vw,80px);
+    left: 10vw;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 1vw 1.2vw;
+    cursor: pointer;
+    border-radius: 2vh;
+    font-size: clamp(10px,1.4vw,40px);
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+@keyframes nav-animado-open {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100vw;
+    }
+    
+
+}
+@keyframes nav-animado-close {
+    0%{
+        width: 100vw;
+    }
+    100%{
+        width: 0vw;
+    }
+}
+.texto.open {
+    background-color: #333;
+    display: block;
+    animation: nav-animado-open 2s;
+}
+.texto.close {
+    animation: nav-animado-close 2s; 
+    display: block;
+}
